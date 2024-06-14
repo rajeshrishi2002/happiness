@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    overflow: hidden;
+    display: grid;
+    color: white;
+    background: black;
+
+  }
+  #footer{
+    color: #ffffff;
+    text-decoration: none;
+    position: fixed;
+    width: 752px;
+    bottom: 20px;
+    top: 100px;
+    right: 265px;
+    align-content: center;
+    float: none;
+    margin-left: calc(50% - 376px);
+  }
